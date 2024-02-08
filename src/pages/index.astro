@@ -1,0 +1,20 @@
+---
+import Faqs from "../components/Faqs.astro";
+import News from "../components/News.astro";
+import Showcase from "../components/Showcase.astro";
+import Teams from "../components/Teams.astro";
+import WhatWeDo from "../components/WhatWeDo.astro";
+import Layout from "../layouts/Layout.astro";
+import AboutUs from "../components/AboutUs.astro"
+---
+
+<Layout title="Welcom to 1337AI">
+	<Showcase />
+	<div id="AboutUs"></div>
+	<AboutUs />
+	<WhatWeDo />
+	<Teams />
+	<div id="News"></div>
+	<News />
+	<Faqs />
+</Layout>

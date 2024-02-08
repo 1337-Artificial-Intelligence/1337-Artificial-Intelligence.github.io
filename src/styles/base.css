@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button.splide__arrow {
+	opacity: 1;
+	background: white;
+	width: 3rem;
+	height: 3rem;
+	border: 1px solid rgb(229, 231, 235);
+}
+
+button.splide__arrow:disabled {
+
+	display: none;
+}
