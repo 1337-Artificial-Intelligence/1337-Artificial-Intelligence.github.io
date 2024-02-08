@@ -1,1 +1,1 @@
-# PRAGNOMOS-CLUB.github.io
+#1337-Artificial-Intelligence.github.io
